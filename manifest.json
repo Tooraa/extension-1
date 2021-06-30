@@ -1,0 +1,13 @@
+{
+    "name": "Doc",
+    "description": "Filter your docs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+      "permissions": ["storage", "activeTab", "scripting","history"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+  }
